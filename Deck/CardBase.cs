@@ -8,9 +8,6 @@ namespace Deck
 {
     public abstract class CardBase : IComparable
     {
-        int IComparable.CompareTo(object obj)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract int CompareTo(object obj);
     }
 }

@@ -10,7 +10,6 @@ namespace Deck
     {
         public PokerDeck_52()
         {
-
         }
     }
 }

@@ -7,12 +7,7 @@ namespace DeckTests
     [TestClass]
     public class DeckTests
     {
-        [TestMethod]
-        public void PokerCardConstructorRuns()
-        {
-            var card = new PokerCard();
-            Assert.AreNotEqual(card, null);
-        }
+
 
         [TestMethod]
         public void PokerDeckConstructorRuns()
@@ -20,6 +15,7 @@ namespace DeckTests
             var deck = new PokerDeck_52();
             Assert.AreNotEqual(deck, null);
         }
+
 
 
     }
