@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Deck
 {
     public abstract class DeckBase
@@ -24,6 +25,7 @@ namespace Deck
             }
         }
 
+        //If I had more time to work on this, I'd do something fun here like implementing a bunch of sort algorithms and calling a delegate.
         public void Sort()
         {
             Cards.Sort();
@@ -49,7 +51,7 @@ namespace Deck
             return string.Join(",", Cards);
         }
 
-        public bool IsSorted()
+        internal bool IsSorted()
         {
             if (Count < 2) return true;
             var sorted = true;

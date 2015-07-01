@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InternalsVisible.cs" />
     <Compile Include="PokerCard.cs" />
     <Compile Include="PokerDeck_52.cs" />
     <Compile Include="CardBase.cs" />

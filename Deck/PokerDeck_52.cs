@@ -21,5 +21,10 @@ namespace Deck
                 }
             }
         }
+
+        new public PokerCard GetNext()
+        {
+            return (PokerCard)base.GetNext();
+        }
     }
 }

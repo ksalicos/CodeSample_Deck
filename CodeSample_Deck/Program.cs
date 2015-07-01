@@ -10,9 +10,10 @@ namespace CodeSample_Deck
     class Program
     {
         public enum Suits { Spades, Diamonds, Clubs, Hearts }
-        
+
         static void Main(string[] args)
         {
+            Console.WriteLine("Code Sample: Kevin Salicos");
             var deck = new PokerDeck_52();
             Console.WriteLine("Base:");
             Console.WriteLine(deck);
@@ -30,7 +31,7 @@ namespace CodeSample_Deck
                 deck.Shuffle();
                 for (var j = 0; j < 52; j++)
                 {
-                    results[j] += (int)((PokerCard)deck.GetNext()).Rank;
+                    results[j] += (int)deck.GetNext().Rank;
                 }
             }
             Console.WriteLine("Average Value At Position: ");

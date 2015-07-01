@@ -21,6 +21,7 @@ namespace DeckTests
             var smallcard = new PokerCard(PokerCard.Ranks.Two, PokerCard.Suits.Diamonds);
             Assert.IsTrue(bigcard.CompareTo(smallcard) > 0);
         }
+
         [TestMethod]
         public void PokerCardCompareLess()
         {
@@ -28,6 +29,7 @@ namespace DeckTests
             var smallcard = new PokerCard(PokerCard.Ranks.Two, PokerCard.Suits.Diamonds);
             Assert.IsTrue(smallcard.CompareTo(bigcard) < 0);
         }
+
         [TestMethod]
         public void PokerCardCompareEqual()
         {
@@ -35,8 +37,6 @@ namespace DeckTests
             var othercard = new PokerCard(PokerCard.Ranks.Ace, PokerCard.Suits.Diamonds);
             Assert.IsTrue(card.CompareTo(othercard) == 0);
         }
-        
-
 
     }
 }

@@ -34,7 +34,6 @@ namespace DeckTests
             Assert.IsFalse(deck.IsSorted());
         }
 
-
         [TestMethod]
         public void PokerDeckShuffled()
         {
@@ -46,8 +45,6 @@ namespace DeckTests
             Assert.IsFalse(deck.IsSorted());
         }
 
-
-
         [TestMethod]
         public void PokerDeckSorted()
         {
@@ -57,8 +54,6 @@ namespace DeckTests
             deck.Sort();
             Assert.IsTrue(deck.IsSorted());
         }
-
-
 
     }
 }
