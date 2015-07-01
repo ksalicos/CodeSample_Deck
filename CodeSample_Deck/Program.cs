@@ -23,7 +23,7 @@ namespace CodeSample_Deck
             Console.WriteLine("Sorted:");
             Console.WriteLine(deck);
             var results = new int[52];
-            var count = 10000f;
+            var count = 100000f;
             for (var i = 0; i < count; i++)
             {
                 deck = new PokerDeck_52();

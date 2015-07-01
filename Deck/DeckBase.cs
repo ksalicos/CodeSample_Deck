@@ -17,7 +17,7 @@ namespace Deck
             var randy = new Random();
             for (int i = 0; i < Count - 1; i++)
             {
-                var offset = randy.Next(Count - i - 1);
+                var offset = randy.Next(Count - i);
                 var t = Cards[i];
                 Cards[i] = Cards[i + offset];
                 Cards[i + offset] = t;
