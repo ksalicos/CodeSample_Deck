@@ -39,7 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Deck.cs" />
+    <Compile Include="PokerCard.cs" />
+    <Compile Include="PokerDeck_52.cs" />
+    <Compile Include="CardBase.cs" />
+    <Compile Include="DeckBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

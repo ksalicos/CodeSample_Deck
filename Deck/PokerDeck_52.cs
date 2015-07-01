@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Deck
 {
-    public class Deck
+    public class PokerDeck_52 : DeckBase
     {
+        public PokerDeck_52()
+        {
 
+        }
     }
 }
